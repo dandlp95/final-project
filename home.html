@@ -5,114 +5,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <title>Chamber of Commerce | Home Page</title>
 </head>
 
 <body>
     <section id="weather-alert">
     </section>
-    <header>
-        <div class="navigation">
-            <img src="" alt="" class="logo" />
-            <nav class="mainNav">
-                <button onclick="toggleMenu()">Menu</button>
-                <ul>
-                    <li><a href="">Learn Rexburg</a></li>
-                    <li><a href="">Local Business</a></li>
-                    <li><a href="">Coronavirus Guidelines</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Join Us</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="clearfix navigation">
+        <img src="images/logo-test.png" alt="website logo" class="headerLogo">
+        <nav class="mainNav">
+            <button onclick="toggleMenu()" class="navButton">Menu</button>
+            <ul class="navList">
+                <li><a href="">Join Us</a></li>
+                <li><a href="">Get Directions</a></li>
+                <li><a href="">Coronavirus Guidelines</a></li>
+                <li><a href="">Local Business</a></li>
+                <li><a href="">Learn Rexburg</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div class="mainbanner">
+        <div class="mainBanner">
             <picture>
                 <source srcset="" media="">
                 <source srcset="" media="">
-                <img src="" alt="" href="" class="bannerImg">
+                <img src="images/main/mainBanner4.jpg" alt="" href="" class="bannerImg">
             </picture>
             <section class="weatherInfo">
-                <h3>Weather: </h3>
+                <h3>Weather in Rexburg </h3>
                 <p>Temperature: <span id="currentTemperature"></span></p>
                 <p>Current: <span id="weatherDescription"></span></p>
                 <p>Humidity: <span id="humidity"></span></p>
             </section>
         </div>
-        <div>
-            <h2>Placeholder Phrase</h2>
-        </div>
         <div id="JoinRexburgChamber">
+            <div>
+                <div class="RexburgImg">
+                    <img src="images/main/potatoes.jpg" data-src="" alt="potatoe field" >
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="RexburgImg">
+                    <img src="images/main/classroom.jpg" data-src="" alt="students in classroom" >
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div  class="RexburgImg">
+                    <img src="images/main/restaurant.jpg" data-src="" alt="restaurant business">
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum.
+                    </p>
+                    <div>
+                        <button class="joinButton">Join Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="testimonies-container">
+            <h3>Read Our Success Stories!</h3>
+            <div id="testimonies">
             <section>
-                <img src="" data-src="" alt="" class="RexburgImg">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </p>
+                <div>
+                    <img src="images/main/person1.jpg" data-src="" alt="">
+                </div>
+                <div class="testimony">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                    </p>
+                </div>
             </section>
             <section>
-                <img src="" data-src="" alt="" class="RexburgImg">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </p>
+                <div>
+                    <img src="images/main/person2.jpg" data-src="" alt="">
+                </div>
+                <div class="testimony">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                    </p>
+                </div>
             </section>
             <section>
-                <img src="" data-src="" alt="" class="RexburgImg">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </p>
-                <button class="joinButton">Join Now!</button>
+                <div>
+                    <img src="images/main/person3.jpg" data-src="" alt="">
+                </div>
+                <div class="testimony"> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                    </p>
+                </div>
             </section>
         </div>
-        <div id="testimonies">
-            <section>
-                <img src="" data-src="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.
-                </p>
-            </section>
-            <section>
-                <img src="" data-src="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.
-                </p>
-            </section>
-            <section>
-                <img src="" data-src="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.
-                </p>
-            </section>
         </div>
         <div id="mainEvents">
             <picture id="eventsBanner">
@@ -219,30 +256,39 @@
         </div>
         <footer>
             <div class="contact">
-            <div class="contactLinks">
-                <h4>Reach Out to Us!</h4>
-                <a href="">Contact Rexburg Chamber of Commerce</a>
-                <a href="">Get Directions</a>
-            </div>
-            <div class=socialMedia>
-                <h4>Follow Us</h4>
-                <div class="socialMediaIcons">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google"></a>
-                    <a href="#" class="fa fa-instagram"></a>
+                <div class="contactInfo">
+                    <h4>Reach Out to Us!</h4>
+                    <a href="">Contact Rexburg Chamber of Commerce</a>
+                    <p>📍 30 N 1st 5</p>
+                    <p>Rexburg, ID</p>
+                    <p>&nbsp;&nbsp;</p>
+                    <p>☎ 912-345-5666</p>
+                    <p>📧 commerce_chamber@rexburg.org</p>
                 </div>
-            </div>
+                <div class=socialMedia>
+                    <h4>Follow Us</h4>
+                    <div class="socialMediaIcons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                </div>
             </div>
             <div class="bottomFooter">
                 <div>
-                <p>&copy; <span id="copyrightyear"></span>Rexburg Chamber of Commerce | Idaho | Placeholder</p>
-                <p>Weather data obtained from <a href="">weather website link placeholder</a></p>
+                    <p>&copy; <span id="copyrightyear"></span>Rexburg Chamber of Commerce | Idaho | Placeholder</p>
+                    <p>Weather data obtained from <a href="">weather website link placeholder</a></p>
                 </div>
                 <img src="" alt="" class="footerLogo">
                 <p><span id="todayDate"></span></p>
             </div>
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({ google: { families: ["Open Sans", "Raleway"] } });
+        </script>
     </main>
 </body>
+
 </html>

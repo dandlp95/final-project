@@ -1,0 +1,134 @@
+/* main header */
+
+header {
+    background-color: rgb(22, 27, 51, 0.9);
+    top: 0;
+    width: 100%;
+    /*position: fixed;*/
+}
+
+header a {
+    color: rgb(248, 248, 248);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    margin-top: 4rem;
+    padding-left: 0;
+
+}
+
+.navButton {
+    display: none;
+}
+
+.navigation {
+    display: flex;
+    margin-top: -1rem;
+}
+
+.navList li {
+    text-align: center;
+    flex: 1;
+}
+
+.mainNav {
+    flex: 1;
+}
+
+.headerLogo {
+    margin-top: -3rem;
+    margin-bottom: -2rem;
+}
+
+/* Banner*/
+.weatherInfo{
+    position: absolute;
+    top:18rem;
+    font-family:"Raleway",sans-serif;
+    font-size:1.6rem;
+    color:rgb(248, 248, 248);
+    background-color:rgba(61,90,128,0.5);
+    padding-right:3rem;
+    padding-left:2rem;
+    left:0.5rem;
+}
+.bannerImg{
+    max-width: 100%;
+}
+/* Join */
+
+.joinRexburgChamber{
+    background-color:rgb(248, 248, 248);
+}
+
+#JoinRexburgChamber>div{
+    display:flex;
+    padding:1rem;
+    font-family: "Open Sans",sans-serif;
+    font-size:1.3rem;
+    line-height:2rem;
+    background-color:rgba(161, 166, 180, 0.5);
+    width:80%;
+    margin:0 auto;
+    margin-top:1rem;
+
+}
+
+#JoinRexburgChamber img{
+    float: left;
+    padding-left: 1rem;
+    padding-right:1rem;
+ 
+}
+
+.joinButton {
+    background-color: #7EA8BE; 
+    border: none;
+    color: #F6F0ED;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left:1rem;
+  }
+
+  /* Testimonies*/
+
+#testimonies-container {
+    text-align: center;
+    margin-top:6rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+#testimonies-container{
+    font-size:1.6rem;
+}
+
+#testimonies{
+    display:flex;
+    margin-top:2rem;
+    
+}
+
+#testimonies section{
+    text-align: center;
+    padding:1rem;
+    
+}
+
+.testimony p{
+    width:75%;
+    margin: 0 auto;
+}
+.testimony{
+    margin-top:1.5rem;
+}
