@@ -1,0 +1,70 @@
+{
+    "businesses": [
+        {
+            "name": "Broulims",
+            "logo": ".../images/directory/broulims-logo",
+            "contact": {
+                "phone": "(208)356-4651",
+                "address": "124 W Main St, Rexburg, ID 83440",
+                "email": ""
+            },
+            "hours": "Monday-Friday 9AM-7PM, Saturday 9AM-5PM",
+            "website": "https://broulims.com/rexburg"
+        },
+        {
+            "name": "Eagle Rock Dental Care",
+            "logo": ".../images/directory/eagle-rock-logo.png",
+            "contact": {
+                "phone": "(208)359-2224",
+                "address": "556 Trejo St., Suite C, Rexburg, ID 83440",
+                "email": "info@eaglerockdentalcare.com"
+            },
+            "hours": "Monday 8AM-5PM, Tuesdays and Thursdays 7AM-6PM, Wednesdays 9AM-6PM, Friday 7AM-2PM",
+            "website": "https://www.eaglerockdentalrexburg.com/"
+        },
+        {
+            "name": "K Lani's",
+            "logo": ".../images/directory/klanis-logo.png",
+            "contact": {
+                "phone": "(208)521-0997",
+                "address": "12 W 1st S, Rexburg, ID 83440",
+                "email": "bill@klanisdesserts.com"
+            },
+            "hours": "Monday-Saturday 3PM-10PM",
+            "website": "https://klanisdesserts.com/password"
+        },
+        {
+            "name": "Super Cuts",
+            "logo": ".../images/directory/supercuts.png",
+            "contact": {
+                "phone": "(208)356-3155",
+                "address": "485 N 2ND EAST ST STE 101, Rexburg, ID 83440",
+                "email": ""
+            },
+            "hours": "Monday to Saturday 10AM-6PM",
+            "website": "https://www.supercuts.com/"
+        },
+        {
+            "name": "The Rex Tech",
+            "logo": ".../images/directory/therextech-logo.png",
+            "contact": {
+                "phone": "(208)371-9823",
+                "address": "59 E Main St, Rexburg, ID 83440",
+                "email": "TheRexTech@gmail.com"
+            },
+            "hours": "Monday to Friday, 11AM-5:30PM",
+            "website": "https://www.therextech.com/contact"
+        },
+        {
+            "name": "The Righteous Slice",
+            "logo": ".../images/directory/righteous-slice-logo.png",
+            "contact": {
+                "phone": "(208)820-4597",
+                "address": "175 W. 200 S#100, Rexburg, ID 83440",
+                "email": ""
+            },
+            "hours": "Monday to Thursday 11AM-9PM, Friday-Saturday 11AM-10PM",
+            "website": "righteousslice.com"
+        }
+    ]
+}
