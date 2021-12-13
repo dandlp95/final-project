@@ -76,7 +76,7 @@ header a:hover {
     
 }
 .bannerImg{
-    max-width: 100%;
+    width: 100%;
 }
 /* Join */
 
@@ -88,12 +88,13 @@ header a:hover {
     /*display:flex;*/
     padding:1rem;
     font-family: "Open Sans",sans-serif;
-    font-size:1.1rem;
+    font-size:0.9rem;
     line-height:2rem;
     background-color:rgba(161, 166, 180, 0.5);
     width:90%;
     margin:0 auto;
     margin-top:1rem;
+    text-align:center;
 }
 
 .mainRexburgImg img{
@@ -163,7 +164,8 @@ header a:hover {
 }
 
 .testimonyImage img{
-    max-width: 100%;
+    max-width: 60%;
+    border-radius: 50%;
 }
 
 /*Event Section*/

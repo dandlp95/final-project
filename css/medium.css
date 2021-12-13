@@ -1,6 +1,10 @@
 @media only screen and (min-width: 32em){
+    .mainRexburg{
+        text-align: left;
+    }
     .mainRexburgImg img{
         padding-right: 1.5rem;
+        
     }
     .weatherInfo{
         font-size:1.2rem;
@@ -13,6 +17,9 @@
     }
     #mainBusinessesTitle{
         font-size:2.5rem;
+    }
+    .testimonyImagae img{
+        max-width:100%;
     }
     .businessTitle{
         font-size:1.8rem;
@@ -34,4 +41,5 @@
     footer{
         font-size:1rem;
     }
+    
 }
