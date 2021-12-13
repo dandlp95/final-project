@@ -1,9 +1,12 @@
 /* main header */
-
 /*
 main{
     max-width:100%;
 }*/
+body{
+    width:100%;
+}
+
 header {
     background-color: rgba(22, 27, 51, 0.9);
     top: 0;
@@ -108,6 +111,7 @@ header a:hover {
 
 .mainRexburgImg img{
     max-width: 100%;
+    float: left;
 }
 
 
@@ -120,12 +124,6 @@ header a:hover {
     clear: both;
     display: table;
   }
-
-#JoinRexburgChamber img{
-    float: left;
-    padding-left: 1rem;
-    padding-right:1rem;
-}
 
 
 .joinButton {
@@ -145,7 +143,8 @@ header a:hover {
     text-align: center;
     margin-top:6rem;
     font-family: "Open Sans", sans-serif;
-    font-size:1.6rem;
+    font-size:1rem;
+    line-height: 1.6;
 }
 
 
@@ -182,6 +181,7 @@ header a:hover {
     background-color: rgba(61,90,128,0.5);
     margin-top:10rem;
     font-family: "Open Sans", sans-serif;
+    
 }
 
 #eventsBanner img{
@@ -189,22 +189,34 @@ header a:hover {
 }
 
 .event{
-    display: flex;
-    padding: 1rem 5rem 1rem 10rem;
-    font-size:1.5rem;
+    /*display: flex;*/
+    /*padding: 1rem 5rem 1rem 10rem;*/
+    font-size:1rem;
+    margin: 0 auto;
+    text-align: center;
 }
 
+.eventImg img{
+    max-width: 80%;
+    float:left;
+    clear:left;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+/*
 .event:nth-child(4), .event:nth-child(3){
     margin-top:2rem;
-}
+}*/
 
 .eventImg{
     padding-right:2.5rem;
+   
 }
-
+/*
 .mainEventInfo{
     width:60%;
-}
+}*/
 
 #mainEvents{
     margin: 0 auto;
@@ -214,6 +226,8 @@ header a:hover {
     padding: 1rem 2rem 2rem 1rem;
 }
 
+/* Rexburg Business*/
+
 .mainBusinesses{
     margin-top:8rem;
     font-family: "Open Sans", sans-serif;
@@ -221,15 +235,15 @@ header a:hover {
 
 #mainBusinessesTitle{
     font-family:"Permanent Marker", sans-serif;
-    font-size:3rem;
+    font-size:1rem;
     text-align: center;
 }
 
 #mainBusinessesContainer{
-    display:grid;
+    /*display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:2rem;*/
     text-align: center;
-    grid-gap:2rem;
     margin:0 auto;
     max-width:100%;
     padding:0.5rem;
