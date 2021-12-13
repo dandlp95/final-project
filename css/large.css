@@ -1,0 +1,30 @@
+@media only screen and (min-width: 52em){
+    .navButton {
+        display: none;
+    }
+    #navList{
+        display: flex;
+        margin-top:6rem;
+    }
+    header a{
+        font-size:1.5em;
+    }
+
+    .weatherInfo{
+        position:absolute;
+        left:0.5rem;
+        top:18rem;
+        font-size:1.4rem;
+        padding-right:3rem;
+        padding-left:2rem;
+        text-align: left;
+    }
+
+    #testimonies{
+        display:flex;
+    }
+
+    #testimonies section{
+        margin-top: 0;
+    }
+}

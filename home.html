@@ -17,10 +17,12 @@
     <section id="weather-alert">
     </section>
     <header class="clearfix navigation">
-        <img src="images/logo-test.png" alt="website logo" class="headerLogo">
+        <div class="headerLogo">
+        <img src="images/logo-test.png" alt="website logo">
+        </div>
         <nav class="mainNav">
-            <button onclick="toggleMenu()" class="navButton">Menu</button>
-            <ul class="navList">
+            <button onclick="toggleMenu()" class="navButton">&#8801 Menu</button>
+            <ul id="navList" class="hide">
                 <li><a href="">Join Us</a></li>
                 <li><a href="">Reach Out to Us</a></li>
                 <li><a href="">Coronavirus Guidelines</a></li>
@@ -44,11 +46,12 @@
             </section>
         </div>
         <div id="JoinRexburgChamber">
-            <div>
-                <div class="RexburgImg">
+            <div class="mainRexburg clearfix">
+                <div class="mainRexburgImg">
                     <img src="images/main/potatoes.jpg" data-src="" alt="potatoe field">
                 </div>
-                <div>
+                <div class="mainRexburgParagraph">
+                    <h2>Title Placeholder</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et dolore magna aliqua.
@@ -62,12 +65,13 @@
                     </p>
                 </div>
             </div>
-            <div>
-                <div class="RexburgImg">
+            <div class="mainRexburg clearfix">
+                <div class="mainRexburgImg">
                     <img src="images/main/classroom.jpg" data-src="" alt="students in classroom">
                 </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                <div class="mainRexburgParagraph">
+                    <h2>Title Placeholder</h2>
+                    <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -80,11 +84,12 @@
                     </p>
                 </div>
             </div>
-            <div>
-                <div class="RexburgImg">
+            <div class="mainRexburg clearfix">
+                <div class="mainRexburgImg">
                     <img src="images/main/restaurant.jpg" data-src="" alt="restaurant business">
                 </div>
-                <div>
+                <div class="mainRexburgParagraph">
+                    <h2>Title Placeholder</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et dolore magna aliqua.
@@ -106,7 +111,7 @@
             <h3>Read Our Success Stories!</h3>
             <div id="testimonies">
                 <section>
-                    <div>
+                    <div class="testimonyImage">
                         <img src="images/main/person1.jpg" data-src="" alt="">
                     </div>
                     <div class="testimony">
@@ -122,7 +127,7 @@
                     </div>
                 </section>
                 <section>
-                    <div>
+                    <div class="testimonyImage">
                         <img src="images/main/person2.jpg" data-src="" alt="">
                     </div>
                     <div class="testimony">
@@ -138,7 +143,7 @@
                     </div>
                 </section>
                 <section>
-                    <div>
+                    <div class="testimonyImage">
                         <img src="images/main/person3.jpg" data-src="" alt="">
                     </div>
                     <div class="testimony">
@@ -317,6 +322,7 @@
                 </div>
             </div>
         </footer>
+        <script src="js/toggleMenu.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({ google: { families: ["Open Sans", "Raleway", "Permanent Marker"] } });
