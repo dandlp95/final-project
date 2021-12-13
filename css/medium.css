@@ -1,3 +1,37 @@
 @media only screen and (min-width: 32em){
-    
+    .mainRexburgImg img{
+        padding-right: 1.5rem;
+    }
+    .weatherInfo{
+        font-size:1.2rem;
+    }
+    #testimonies-container h3{
+        font-size:3rem;
+    }
+    #testimonies-container p{
+        font-size: 1.8rem;
+    }
+    #mainBusinessesTitle{
+        font-size:2.5rem;
+    }
+    .businessTitle{
+        font-size:1.8rem;
+    }
+    .businessInfo{
+        font-size:1.4rem;
+    }
+    .mainEventInfo{
+        padding:1rem;
+    }
+    .mainEventInfo h2{
+        font-size:2rem;
+    }
+
+    .mainEventInfo p{
+        font-size:1.6rem;
+    }
+
+    footer{
+        font-size:1rem;
+    }
 }

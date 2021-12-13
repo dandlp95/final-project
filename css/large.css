@@ -6,9 +6,15 @@
         display: flex;
         margin-top:6rem;
     }
+
+    #navList li{
+        padding: 0.6rem;
+    }
+
     header a{
         font-size:1.5em;
     }
+
 
     .weatherInfo{
         position:absolute;
@@ -31,14 +37,12 @@
     #testimonies section{
         margin-top: 0rem !important; 
     }
-    #testimonies-container{
-        font-size: 1.3rem;
-        
+
+    #testimonies-container p{
+        font-size: 1.3rem;  
     }
 
-    #mainBusinessesTitle{
-        font-size:2.5rem;
-    }
+
     #mainBusinessesContainer{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -49,5 +53,35 @@
         text-align: left;
     }
 
+    .eventImg{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        float:left;
+        clear:left;
+    }
+    
+    .mainEventInfo{
+        padding:0;
+    }
+
+    .eventImg img{
+        max-width:90%;
+    }
+
+    footer{
+        font-size:1rem;
+    }
+
+    .footerLogo{
+        display:inline;
+    }
+
+    .bottomFooter{
+        display:flex;
+        align-items:end;
+    }
+    .bottomFooter div{
+        flex: 1;
+    }
 
 }
