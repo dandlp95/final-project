@@ -36,6 +36,14 @@ fetch(directoryUrl)
             businessContactInformation.appendChild(businessPhoneNumber);
             businessContactInformation.appendChild(businessAddress);
             businessContactInformation.appendChild(businessEmail);
+
+            businessSection.appendChild(businessName);
+            businessSection.appendChild(businessLogo);
+            businessSection.appendChild(businessContactInformation);
+            businessSection.appendChild(businessHours);
+            businessSection.appendChild(businessWebsite);
+
+            document.querySelector(".directoryContainer").appendChild(businessSection);
             
             
 
