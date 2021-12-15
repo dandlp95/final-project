@@ -2,7 +2,7 @@
     "businesses": [
         {
             "name": "Broulims",
-            "logo": "images/directory/broulims-logo",
+            "logo": "images/directory/broulims-logo.png",
             "contact": {
                 "phone": "(208)356-4651",
                 "address": "124 W Main St, Rexburg, ID 83440",
