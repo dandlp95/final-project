@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Chamber of Commerce | Home Page</title>
 </head>
+
 <body>
     <header class="clearfix navigation">
         <div class="headerLogo">
@@ -29,14 +30,81 @@
         </nav>
     </header>
     <main class="contactUsMain">
-        <div class="contactInformationContainer">
-        </div>
-        <div class="googleMap">
-        </div>
-        <div class="contactForm">
-        </div>
-        <div class="boardDirectors">
-        </div>
+        <section class="contactInformationContainer">
+            <div class="contactUsInformation">
+                <h2>Contact Information</h2>
+                <p>Address: 30 N 1st 5, Rexburg ID</p>
+                <p>Phone: 912-345-5666</p>
+                <p>Email: commerce_chamber@rexburg.org</p>
+            </div>
+            <div class="googleMap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.4483760471826!2d-111.79134968477248!3d43.82580024927099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a515035ed5f%3A0x1f0ff829aca1e068!2sRexburg%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1639562553660!5m2!1sen!2sus"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <section class="contactForm">
+            <form method="get" name="contactForm" id="contactUsForm">
+                <h2>Fill out this form and one of our representatives will contact you</h2>
+                <label class="contactBox">Full name:*<input type="text" name="name" required autocomplete="name"
+                        pattern="[A-Za-z]{5,}"></label>
+                <label class="contactBox">Email* <input type="email" name="email" placeholder="someone@example.com"></label>
+                <label class="contactBox">Phone number* <input type="tel" name="phone" required></label>
+                <label class="contactBox">Business Description:
+                    <textarea name="myTextBox" cols="50" rows="5"></textarea>
+                </label>
+            </form>
+        </section>
+        <section class="boardDirectors">
+            <div class="director">
+                <h2 class="name">Director name</h2>
+                <img src="images/contact/member1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+            <div class="director">
+                <h2 class="name">Director name</h2>
+                <img src="images/contact/member2.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+            <div class="director">
+                <h2 class="name">Director name</h2>
+                <img src="images/contact/member3.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+            <div class="director">
+                <h2 class="name">Director name</h2>
+                <img src="images/contact/member4.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="contact">
@@ -58,7 +126,6 @@
         </div>
         <div class="bottomFooter">
             <div>
-
                 <p>Weather data obtained from <a href="">weather website link placeholder</a></p>
             </div>
             <div class="footerLogo">
@@ -78,4 +145,5 @@
     </script>
     </main>
 </body>
+
 </html>
