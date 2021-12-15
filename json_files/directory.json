@@ -2,7 +2,7 @@
     "businesses": [
         {
             "name": "Broulims",
-            "logo": ".../images/directory/broulims-logo",
+            "logo": "images/directory/broulims-logo",
             "contact": {
                 "phone": "(208)356-4651",
                 "address": "124 W Main St, Rexburg, ID 83440",
@@ -14,7 +14,7 @@
 
         {
             "name": "Eagle Rock Dental Care",
-            "logo": ".../images/directory/eagle-rock-logo.png",
+            "logo": "images/directory/eagle-rock-logo.png",
             "contact": {
                 "phone": "(208)359-2224",
                 "address": "556 Trejo St., Suite C, Rexburg, ID 83440",
@@ -26,7 +26,7 @@
 
         {
             "name": "K Lani's",
-            "logo": ".../images/directory/klanis-logo.png",
+            "logo": "images/directory/klanis-logo.png",
             "contact": {
                 "phone": "(208)521-0997",
                 "address": "12 W 1st S, Rexburg, ID 83440",
@@ -38,7 +38,7 @@
 
         {
             "name": "Super Cuts",
-            "logo": ".../images/directory/supercuts.png",
+            "logo": "images/directory/supercuts.png",
             "contact": {
                 "phone": "(208)356-3155",
                 "address": "485 N 2ND EAST ST STE 101, Rexburg, ID 83440",
@@ -50,7 +50,7 @@
 
         {
             "name": "The Rex Tech",
-            "logo": ".../images/directory/therextech-logo.png",
+            "logo": "images/directory/therextech-logo.png",
             "contact": {
                 "phone": "(208)371-9823",
                 "address": "59 E Main St, Rexburg, ID 83440",
@@ -62,7 +62,7 @@
 
         {
             "name": "The Righteous Slice",
-            "logo": ".../images/directory/righteous-slice-logo.png",
+            "logo": "images/directory/righteous-slice-logo.png",
             "contact": {
                 "phone": "(208)820-4597",
                 "address": "175 W. 200 S#100, Rexburg, ID 83440",
@@ -74,7 +74,7 @@
         
         {
             "name": "Bodify",
-            "logo": ".../images/directory/bodifi-logo.png",
+            "logo": "images/directory/bodifi-logo.png",
             "contact":{
                 "phone": "(208)356-7780",
                 "address": "730 W 7th S, Rexburg, ID 83440",
