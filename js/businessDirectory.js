@@ -24,8 +24,20 @@ fetch(directoryUrl)
             let businessWebsite = document.createElement("p");
 
             businessName.textContent = businessDirectory[i].name;
-            console.log(businessDirectory[i].name);
+            businessLogo.setAttribute("src", businessDirectory[i].logo)
+            
+            businessPhoneNumber.textContent = businessDirectory[i].phone;
+            businessAddress.textContent = businessDirectory[i].address;
+            businessEmail.textContent = businessDirectory[i].email;
 
+            businessHours.textContent = businessDirectory[i].hours;
+            businessWebsite.textContent = businessDirectory[i].website;
+
+            businessContactInformation.appendChild(businessPhoneNumber);
+            businessContactInformation.appendChild(businessAddress);
+            businessContactInformation.appendChild(businessEmail);
+            
+            
 
 
 
