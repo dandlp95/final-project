@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chamber of Commerce | Home Page</title>
+</head>
+
+<body>
+    <header class="clearfix navigation">
+        <div class="headerLogo">
+            <img src="images/logo-test.png" alt="website logo">
+        </div>
+        <nav class="mainNav">
+            <button onclick="toggleMenu()" class="navButton">&#8801 Menu</button>
+            <ul id="navList" class="hide">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="contact.html">Reach Out to Us</a></li>
+                <li><a href="directory.html">Local Business</a></li>
+                <li><a href="city-page.html">Learn Rexburg</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="confirmation">
+        <div>
+            <img src="images/form/confirmation.png" alt="Cartoon of professionals">
+        </div>
+        <h2>Thank you for joining the Chamber of Commerce</h2>
+        <p>Please check your email for further instructions</p>
+    </main>
+    <footer>
+        <div class="contact">
+            <div class="contactInfo">
+                <h4>Reach Out to Us!</h4>
+                <a href="">Contact Rexburg Chamber of Commerce</a>
+                <p>📍 30 N 1st 5, Rexburg ID</p>
+                <p>☎ 912-345-5666</p>
+                <p>📧 commerce_chamber@rexburg.org</p>
+            </div>
+            <div class=socialMedia>
+                <h4>Follow Us</h4>
+                <div class="socialMediaIcons">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                </div>
+            </div>
+        </div>
+        <div class="bottomFooter">
+            <div>
+
+                <p>Weather data obtained from <a href="">weather website link placeholder</a></p>
+            </div>
+            <div class="footerLogo">
+                <img src="images/footer.png" alt="">
+            </div>
+            <div>
+                <p>&copy; <span id="copyrightyear"></span>Rexburg Chamber of Commerce | Idaho | Placeholder</p>
+                <p><span id="todayDate">Date Place holder here</span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/todayDate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({ google: { families: ["Open Sans", "Raleway", "Permanent Marker"] } });
+    </script>
+    </main>
+</body>
+
+</html>

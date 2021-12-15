@@ -115,7 +115,7 @@ header a:hover {
   }
 
 
-.joinButton {
+.joinButton, .submitBtn{
     background-color: #7EA8BE; 
     border: none;
     color: #F6F0ED;
@@ -318,7 +318,7 @@ footer a{
     font-size:2.5rem;
     background-color: rgb(22,27,51);
     color: white;
-    /*padding:0.2rem 0;*/
+
 }
 
 .citySectionTitle h2{
@@ -389,18 +389,15 @@ footer a{
     margin-top:7rem;
 }
 
-#rexburgArticles{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:4rem;
-}
-
 #rexburgArticles article{
     width:80%;
 }
 
 #rexburgArticles{
     text-align:center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:4rem;
 }
 
 #rexburgArticles p{
@@ -421,9 +418,138 @@ footer a{
 }
 
 .rexburgHistorySection{
+    font-size:1.4rem;
     padding-bottom:1rem;
 }
-.rexburgHistorySection{
-    font-size:1.4rem;
+
+.rexburgHistorySection p{
     line-height: 1.5rem;
+}
+
+/* Business Directory */
+.directoryContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    text-align:center;
+    margin:0 auto;
+    width:90%;
+}
+
+.businessLogo{
+    max-width: 60%;
+
+}
+
+.directoryTitle h2{
+    text-align:center;
+    padding:1.5rem;
+    font-size:3rem;
+    font-family:"Raleway",sans-serif;
+}
+
+.businessName{
+    font-size:1.5rem;
+    font-family:"Raleway",sans-serif;
+}
+
+.businessContainer p, .businessContainer a{
+    font-family:"Open Sans",sans-serif;
+}
+
+.businessContainer{
+    background-color: rgba(22,27,51, 0.1);
+    border-radius: 8px;
+    padding:0.5rem;
+}
+
+/* Join Form */
+.joinMain{
+    text-align:center;
+}
+label.box{
+    display:block;
+}
+
+.joinMain form{
+    
+    margin: 0 auto;
+    font-family: "Raleway",sans-serif;
+}
+
+.benefitsContainer{
+    font-family: "Open Sans",sans-serif;
+}
+
+.joinMain form fieldset {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5rem 2%;
+    background-color: rgba(22,27,51,0.2);
+    font-weight: bold;
+    max-width: 600px;
+}
+
+form label.box input, form label.box select, form label.box textarea{
+    display: block;
+    margin:0 auto;
+    border-radius: 4px;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 18rem;
+}
+
+.joinMain label{
+    padding-top: 1rem;
+}
+
+.joinMain fieldset:nth-child(2){
+    margin-top: 2rem;
+}
+
+.benefitsContainer{
+    width:70%;
+    margin:0 auto;
+    padding:1rem;
+    line-height:1.4rem;
+}
+
+.membershipBenefits{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:2rem;
+    grid-gap:1.5rem;
+    line-height:1.4rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.benefit{
+    background-color: rgba(180, 210, 231,0.5);
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.submitBtn{
+    margin-top:1rem;
+    border-radius: 10px;
+}
+
+.confirmation{
+    text-align: center;
+    margin-top:-3rem;
+    
+}
+
+.confirmation p{
+    font-size:1.5rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.confirmation h2{
+    font-size:3rem;
+    max-width: 70%;
+    margin: 0 auto;
+    font-family:"Permanent Marker", sans-serif;
 }
