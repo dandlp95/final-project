@@ -158,5 +158,17 @@
   .chartImg img, .rexburgHistoryImg img{
     float:left;
   }
+  /*Directory*/
+  .directoryContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  .businessContainer{
+    margin-top:0;
+  }
+  .businessContainer p, .businessContainer a{
+    font-size:1rem;
+  }
 
 }

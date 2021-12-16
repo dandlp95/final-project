@@ -449,9 +449,6 @@ footer a {
 
 /* Business Directory */
 .directoryContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1rem;
   text-align: center;
   margin: 0 auto;
   width: 90%;
@@ -476,12 +473,14 @@ footer a {
 .businessContainer p,
 .businessContainer a {
   font-family: "Open Sans", sans-serif;
+  font-size:0.8rem;
 }
 
 .businessContainer {
   background-color: rgba(22, 27, 51, 0.1);
   border-radius: 8px;
   padding: 0.5rem;
+  margin-top:2rem;
 }
 
 /* Join Form */
