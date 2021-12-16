@@ -21,7 +21,6 @@ fetch(weatherUrl)
         const weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
         /* 3 days forecast*/
-
         dailyForecast = jsonObject.daily;
 
         for (let i = 0; i < 3; i++){
