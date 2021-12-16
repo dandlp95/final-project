@@ -197,7 +197,35 @@ header a:hover {
 
 #weatherForecast{
     padding: 1rem 2rem 2rem 1rem;
+    text-align: center;
 }
+.weatherForecastTable{
+    margin: 0 auto;
+    font-size:2rem;
+    margin-top:2rem;
+}
+.weatherForecastTable img{
+    width: 100%;
+}
+
+.forecastIcon td, .forecastTemp td{
+    background-color:rgba(248, 248, 248,0.5)
+}
+
+.weatherForecastTable th, .weatherForecastTable td{
+    padding:1rem;
+}
+
+.weatherForecastTable th{
+    background-color:rgba(22,27,51,0.2);
+}
+table{
+    width:30%;
+}
+#weatherForecast h3{
+    font-size:2rem;
+}
+
 
 /* Rexburg Business*/
 
@@ -553,3 +581,5 @@ form label.box input, form label.box select, form label.box textarea{
     margin: 0 auto;
     font-family:"Permanent Marker", sans-serif;
 }
+
+/* */
