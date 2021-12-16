@@ -23,7 +23,6 @@ fetch(weatherUrl)
         /* 3 days forecast*/
 
         dailyForecast = jsonObject.daily;
-        console.log(dailyForecast);
 
         for (let i = 0; i < 3; i++){
 
