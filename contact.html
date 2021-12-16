@@ -30,31 +30,39 @@
         </nav>
     </header>
     <main class="contactUsMain">
-        <section class="contactInformationContainer">
-            <div class="contactUsInformation">
-                <h2>Contact Information</h2>
-                <p>Address: 30 N 1st 5, Rexburg ID</p>
-                <p>Phone: 912-345-5666</p>
-                <p>Email: commerce_chamber@rexburg.org</p>
-            </div>
-            <div class="googleMap">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.4483760471826!2d-111.79134968477248!3d43.82580024927099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a515035ed5f%3A0x1f0ff829aca1e068!2sRexburg%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1639562553660!5m2!1sen!2sus"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section>
+        <div class="sectionTitle">
+        <h2 class="contactTitle">Contact Us!</h2>
+        </div>
         <section class="contactForm">
             <form method="get" name="contactForm" id="contactUsForm">
                 <h2>Fill out this form and one of our representatives will contact you</h2>
                 <label class="contactBox">Full name:*<input type="text" name="name" required autocomplete="name"
                         pattern="[A-Za-z]{5,}"></label>
-                <label class="contactBox">Email* <input type="email" name="email" placeholder="someone@example.com"></label>
+                <label class="contactBox">Email* <input type="email" name="email"
+                        placeholder="someone@example.com"></label>
                 <label class="contactBox">Phone number* <input type="tel" name="phone" required></label>
                 <label class="contactBox">Business Description:
                     <textarea name="myTextBox" cols="50" rows="5"></textarea>
                 </label>
+                <input type="submit" value="Submit" class="submitBtn">
             </form>
+            <section class="contactInformationContainer">
+                <div class="googleMap">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.4483760471826!2d-111.79134968477248!3d43.82580024927099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a515035ed5f%3A0x1f0ff829aca1e068!2sRexburg%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1639562553660!5m2!1sen!2sus"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="contactUsInformation">
+                    <h2>Contact Information</h2>
+                    <p>Address: 30 N 1st 5, Rexburg ID</p>
+                    <p>Phone: 912-345-5666</p>
+                    <p>Email: commerce_chamber@rexburg.org</p>
+                </div>
+            </section>
         </section>
+        <div class="sectionTitle">
+            <h2>Board of Directors</h2>
+        </div>
         <section class="boardDirectors">
             <div class="director">
                 <h2 class="name">Director name</h2>
