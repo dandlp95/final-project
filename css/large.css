@@ -119,4 +119,44 @@
     width: 50%;
   }
 
+  /*City Page*/
+  #cityArticles{
+    display:flex;
+  }
+  .newsSection img{
+    float:left;
+    padding-right:0.5rem;
+  }
+  .news{
+    text-align: unset;
+  }
+  .demographicsContainer{
+    display: flex;
+    text-align: unset;
+  }
+  .sideArticleContainer{
+    margin-top:3rem;
+  }
+  #rexburgArticles{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+  }
+  .rexburgHistorySection{
+    text-align:unset;
+  }
+  .rexburgHistorySection p{
+    width:100%;
+    margin:0;
+    line-height:normal;
+    font-size:1.3rem;
+  }
+  .sectionTitle h2{
+    text-align:unset;
+    font-size:2.5rem;
+  }
+  .chartImg img, .rexburgHistoryImg img{
+    float:left;
+  }
+
 }
