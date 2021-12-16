@@ -20,7 +20,7 @@
             <img src="images/logo-test.png" alt="website logo">
         </div>
         <nav class="mainNav">
-            <button onclick="toggleMenu()" class="navButton">&#8801 Menu</button>
+            <button onclick="toggleMenu()" class="navButton">&#8801; Menu</button>
             <ul id="navList" class="hide">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="join.html">Join Us</a></li>
@@ -67,12 +67,12 @@
             <fieldset>
                 <h2>Business Information</h2>
                 <label class="box">Business Name: <input type="text" name="businessName" required
-                        autocomplete="businessName" pattern="[A-Za-z]{5,}"></label>
+                         pattern="[A-Za-z]{5,}"></label>
                 <label class="box">Street Address: <input type="text" name="businessStreet1" required
-                        autocomplete="businessStreet1" pattern="[A-Za-z]{5,}"></label>
+                        pattern="[A-Za-z]{5,}"></label>
                 <label class="box">Street Address (optional): <input type="text" name="businessStreet2"
-                        autocomplete="businessStreet2" pattern="[A-Za-z]{5,}"></label>
-                <label class="box">Website: <input type="text" name="businessWebsite" autocomplete="businessWebsite"
+                        pattern="[A-Za-z]{5,}"></label>
+                <label class="box">Website: <input type="text" name="businessWebsite" 
                         pattern="[A-Za-z]{5,}"></label>
                 <label class="box">Business Description:
                     <textarea name="myTextBox" cols="50" rows="5"></textarea>
@@ -143,6 +143,9 @@
                 <p>☎ 912-345-5666</p>
                 <p>📧 commerce_chamber@rexburg.org</p>
             </div>
+            <div class="footerLogo">
+                <img src="images/footer.png" alt="Rexburg Chamber logo">
+            </div>
             <div class=socialMedia>
                 <h4>Follow Us</h4>
                 <div class="socialMediaIcons">
@@ -154,25 +157,26 @@
         </div>
         <div class="bottomFooter">
             <div>
-
-                <p>Weather data obtained from <a href="">weather website link placeholder</a></p>
-            </div>
-            <div class="footerLogo">
-                <img src="images/footer.png" alt="">
+                <p>Weather data obtained from <a
+                        href="https://openweathermap.org/api/one-call-api">openweathermap.org/api/one-call-api</a>
+                </p>
             </div>
             <div>
-                <p>&copy; <span id="copyrightyear"></span>Rexburg Chamber of Commerce | Idaho | Placeholder</p>
+                <p>&copy; <span id="copyrightyear"></span>Rexburg Chamber of Commerce | Idaho</p>
                 <p><span id="todayDate">Date Place holder here</span></p>
+            </div>
+            <div>
+                <p>Last updated: <span id="updateDate"></span></p>
             </div>
         </div>
     </footer>
+    <script src="js/lastModified.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/todayDate.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({ google: { families: ["Open Sans", "Raleway", "Permanent Marker"] } });
     </script>
-    </main>
 </body>
 
 </html>

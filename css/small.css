@@ -645,10 +645,6 @@ form label.contactBox textarea {
   line-height: 1.5rem;
 }
 
-.contactTitle {
-  background-color: (22, 27, 51);
-}
-
 .contactForm {
   margin-bottom: 7rem;
 }
