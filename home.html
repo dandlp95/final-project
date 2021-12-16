@@ -14,9 +14,6 @@
 </head>
 
 <body>
-    <!-- <section id="weather-alert">
-    </section> -->
-    
     <header class="clearfix navigation">
         <div class="headerLogo">
         <img src="images/logo-test.png" alt="website logo">
@@ -41,9 +38,9 @@
             </picture>
             <section class="weatherInfo">
                 <h3>Weather in Rexburg </h3>
-                <p>Temperature: <span id="currentTemperature"></span></p>
+                <p>Temperature: <span id="currentTemperature"></span>°F</p>
                 <p>Current: <span id="weatherDescription"></span></p>
-                <p>Humidity: <span id="humidity"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
             </section>
         </div>
         <div id="JoinRexburgChamber">
@@ -289,6 +286,7 @@
                 </table>
             </section>
         </div>
+    </main>
         <footer>
             <div class="contact">
                 <div class="contactInfo">
@@ -321,13 +319,14 @@
                 </div>
             </div>
         </footer>
+        <script src="js/weather.js"></script>
         <script src="js/toggleMenu.js"></script>
         <script src="js/todayDate.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({ google: { families: ["Open Sans", "Raleway", "Permanent Marker"] } });
         </script>
-    </main>
+    
 </body>
 
 </html>
