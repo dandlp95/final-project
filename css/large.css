@@ -1,87 +1,122 @@
-@media only screen and (min-width: 52em){
-    .navButton {
-        display: none;
-    }
-    #navList{
-        display: flex;
-        margin-top:6rem;
-    }
+@media only screen and (min-width: 52em) {
+  .navButton {
+    display: none;
+  }
+  #navList {
+    display: flex;
+    margin-top: 6rem;
+  }
 
-    #navList li{
-        padding: 0.6rem;
-    }
+  #navList li {
+    padding: 0.6rem;
+  }
 
-    header a{
-        font-size:1.5em;
-    }
+  header a {
+    font-size: 1.5em;
+  }
 
+  .weatherInfo {
+    position: absolute;
+    left: 0.5rem;
+    top: 18rem;
+    font-size: 1.4rem;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    text-align: left;
+  }
 
-    .weatherInfo{
-        position:absolute;
-        left:0.5rem;
-        top:18rem;
-        font-size:1.4rem;
-        padding-right:3rem;
-        padding-left:2rem;
-        text-align: left;
-    }
+  .mainRexburgImg img {
+    padding-right: 1rem;
+  }
 
-    .mainRexburgImg img {
-        padding-right: 1rem;
-    }
+  #testimonies {
+    display: flex;
+  }
 
-    #testimonies{
-        display:flex;
-    }
+  #testimonies section {
+    margin-top: 0rem !important;
+  }
 
-    #testimonies section{
-        margin-top: 0rem !important; 
-    }
+  #testimonies-container p {
+    font-size: 1.3rem;
+  }
 
-    #testimonies-container p{
-        font-size: 1.3rem;  
-    }
+  #mainBusinessesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .event {
+    font-size: 1.3rem;
+    text-align: left;
+  }
 
+  .eventImg {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    float: left;
+    clear: left;
+  }
 
-    #mainBusinessesContainer{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap:2rem;
-    }
-    .event{
-        font-size:1.3rem;
-        text-align: left;
-    }
+  .mainEventInfo {
+    padding: 0;
+  }
 
-    .eventImg{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        float:left;
-        clear:left;
-    }
-    
-    .mainEventInfo{
-        padding:0;
-    }
+  .eventImg img {
+    max-width: 90%;
+  }
 
-    .eventImg img{
-        max-width:90%;
-    }
+  footer {
+    font-size: 1rem;
+  }
 
-    footer{
-        font-size:1rem;
-    }
+  .footerLogo {
+    display: inline;
+  }
 
-    .footerLogo{
-        display:inline;
-    }
+  .bottomFooter {
+    display: flex;
+    align-items: end;
+  }
+  .bottomFooter div {
+    flex: 1;
+  }
 
-    .bottomFooter{
-        display:flex;
-        align-items:end;
-    }
-    .bottomFooter div{
-        flex: 1;
-    }
+  /* Join form */
+  .membershipBenefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2rem;
+    grid-gap: 1.5rem;
+    max-width: 100%;
+  }
+  .benefit {
+    margin-top: 0;
+  }
+  .joinMain {
+    font-size: 1rem;
+  }
+  .contactForm {
+    display: flex;
+  }
+  .boardDirectors {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .boardDirectors div:nth-child(2),
+  .boardDirectors div:nth-child(3),
+  .boardDirectors div:nth-child(4) {
+    margin-top: 0;
+  }
+  
+  .contactForm h2 {
+    font-size: 1.2rem;
+  }
+
+  form label.contactBox input,
+  form label.contactBox textarea {
+    width: 50%;
+  }
 
 }

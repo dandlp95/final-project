@@ -489,6 +489,7 @@ footer a {
 /* Join Form */
 .joinMain {
   text-align: center;
+  font-size: 0.8rem;
 }
 label.box {
   display: block;
@@ -524,6 +525,10 @@ form label.box textarea {
   max-width: 18rem;
 }
 
+.joinMain fieldset:nth-child(4) {
+  margin-top: 1rem;
+}
+
 .joinMain label {
   padding-top: 1rem;
 }
@@ -540,12 +545,9 @@ form label.box textarea {
 }
 
 .membershipBenefits {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 2rem;
-  grid-gap: 1.5rem;
+  display: block;
   line-height: 1.4rem;
-  max-width: 80%;
+  max-width: 50%;
   margin: 0 auto;
 }
 
@@ -553,6 +555,7 @@ form label.box textarea {
   background-color: rgba(180, 210, 231, 0.5);
   border: solid 1px black;
   border-radius: 15px;
+  margin-top: 1rem;
 }
 
 .submitBtn {
@@ -579,12 +582,13 @@ form label.box textarea {
 
 /* Contact Info */
 .googleMap iframe {
-  padding: 1rem;
-  width: 100%;
-
+  padding: 0.5rem;
+  width: 80%;
+  margin:0 auto;
+  display: block;
 }
 .contactInformationContainer {
-  display: flex;
+  display: block;
   background-color: rgba(22, 27, 51, 0.2);
   width: fit-content;
   margin: 1rem 2rem;
@@ -597,60 +601,64 @@ form label.box textarea {
   text-align: right;
 }
 
-.contactUsInformation {
-  padding-left: 1rem;
-  width:50%;
-}
 
 .contactUsInformation {
   padding: 1rem;
 }
 
 form label.contactBox input,
-form label.contactBox textarea{
-    display:block;
-    width:50%;
+form label.contactBox textarea {
+  display: block;
+  width: 80%;
 }
 
-.contactForm{
-    display:flex;
+.contactForm {
+  display: block;
 }
-.contactForm h2{
-    width:85%;
-    font-size:1.2rem;
+.contactForm h2 {
+  width: 85%;
+  font-size: 1rem;
 }
 
-#contactUsForm{
-    padding:1rem;
+#contactUsForm {
+  padding: 1rem;
 }
 
 .boardDirectors {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    padding:2rem;
-    grid-gap: 2rem;
+  display: block;
+  padding: 2rem;
 }
 
-.boardDirectors div{
-    text-align:center;   
+.boardDirectors div:nth-child(2),
+.boardDirectors div:nth-child(3),
+.boardDirectors div:nth-child(4) {
+  margin-top: 4.5rem;
 }
 
-.boardDirectors div img{
-    padding: 0.5rem;
-    border: 1px solid rgba(22, 27, 51, 0.2);
-    border-radius: 4px;
+.boardDirectors div {
+  text-align: center;
 }
 
-.boardDirectors p{
-    width:70%;
-    margin: 0 auto;
-    line-height:1.5rem;
+.boardDirectors div img {
+  padding: 0.5rem;
+  border: 1px solid rgba(22, 27, 51, 0.2);
+  border-radius: 4px;
 }
 
-.contactTitle{
-    background-color:(22,27,51);
+.boardDirectors p {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.5rem;
 }
 
-.contactForm{
-    margin-bottom:7rem;
+.contactTitle {
+  background-color: (22, 27, 51);
+}
+
+.contactForm {
+  margin-bottom: 7rem;
+}
+
+.director img{
+    max-width:90%;
 }
