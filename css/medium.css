@@ -41,5 +41,16 @@
     footer{
         font-size:1rem;
     }
-    
+    .contactInformationContainer{
+        display:flex;
+    }
+    .googleMap iframe{
+        width: 100%;
+        padding:1rem;
+    }
+    .contactUsInformation{
+        width: 50%;
+    }
+
+
 }
